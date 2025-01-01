@@ -8,5 +8,8 @@ document.body.appendChild(tag);
 tag.style.left=x+'px';
 tag.style.top=y+'px';
 
+setTimeout(function(){
+ tag.remove();
+},1000)
 
 })
